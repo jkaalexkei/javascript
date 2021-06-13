@@ -27,3 +27,27 @@ const Vehiculo = new Carro(4,"azul");
 
 Vehiculo.arrancar()
 
+let vehiculo2 = new Carro(4,"negro")
+vehiculo2.arrancar()
+
+// DECLARACION DE CLASES CON LAS NUEVAS REGLAS DE JAVASCRIPT
+
+class Bicicleta{
+
+    constructor(ruedas,color){
+        this.ruedas = ruedas;
+        this.color = color;
+
+    }
+
+    arrancar(){
+        console.log(`Estas arrancando una biciclete de: 
+        ${this.ruedas} ruedas y de color ${this.color}`)
+    }
+
+
+}
+
+let bici = new Bicicleta(2,"verde");
+bici.arrancar()
+
